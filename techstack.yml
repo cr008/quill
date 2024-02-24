@@ -1,0 +1,155 @@
+repo_name: cristianospsp/quill
+report_id: c2c117531c49084acd15c1834e6167d5
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-24T20:55:01+00:00'
+requested_by: fwbrasil
+provider: github
+branch: master
+detected_tools_count: 12
+tools:
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/cristianospsp/quill/blob/master/quill-jdbc/src/test/resources/sql/h2-schema.sql
+  detection_source: quill-jdbc/src/test/resources/sql/h2-schema.sql
+  last_updated_by: Jan Heise
+  last_updated_on: 2015-12-16 06:35:12.000000000 Z
+- name: Scala
+  description: A pure-bred object-oriented language that runs on the JVM
+  website_url: http://www.scala-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1012/scala.png
+  detection_source_url: https://github.com/cristianospsp/quill
+  detection_source: Repo Metadata
+- name: Cassandra
+  description: A partitioned row store. Rows are organized into tables with a required
+    primary key.
+  website_url: http://cassandra.apache.org/
+  version: '3.7'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1032/cassandra_small.png
+  detection_source_url: https://github.com/cristianospsp/quill/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: fwbrasil
+  last_updated_on: 2016-07-02 19:48:20.000000000 Z
+- name: Cloud DB for Mysql
+  description: Easily setup and manage the MySQL database service
+  website_url: https://www.ncloud.com/product/database/cloudDbMysql
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: SQL Database as a Service
+  image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/cristianospsp/quill/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Gustavo Amigo
+  last_updated_on: 2016-02-06 20:11:12.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/cristianospsp/quill/blob/master/build.sbt
+  detection_source: build.sbt
+  last_updated_by: Flavio W. Brasil
+  last_updated_on: 2015-07-20 22:15:30.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/cristianospsp/quill/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Gustavo Amigo
+  last_updated_on: 2016-02-06 20:11:12.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/cristianospsp/quill/blob/master/codecov.yml
+  detection_source: codecov.yml
+  last_updated_by: fwbrasil
+  last_updated_on: 2016-05-09 04:39:23.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/cristianospsp/quill
+  detection_source: Repo Metadata
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/cristianospsp/quill/blob/master/quill-core/src/test/resources/logback.xml
+  detection_source: quill-core/src/test/resources/logback.xml
+  last_updated_by: Flavio W. Brasil
+  last_updated_on: 2015-08-05 12:50:32.000000000 Z
+- name: ScalaTest
+  description: A testing tool in the Scala ecosystem
+  website_url: http://www.scalatest.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4371/frame_apngframe0.png
+  detection_source_url: https://github.com/cristianospsp/quill/blob/master/build.sbt
+  detection_source: build.sbt
+  last_updated_by: fwbrasil
+  last_updated_on: 2016-07-16 07:00:44.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/cristianospsp/quill/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Flavio W. Brasil
+  last_updated_on: 2015-07-29 21:51:17.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/cristianospsp/quill
+  detection_source: Repo Metadata
